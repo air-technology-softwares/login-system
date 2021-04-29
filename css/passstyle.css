@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color: gray;
+}
+
+div.tittle
+{
+	font-size: 20px;
+	text-align: center;
+}
+
+form.pass
+{
+	background-color: white;
+	height: 350px;
+	width: 450px;
+	border-radius: 20px;
+}
+
+input.pass
+{
+	height: 25px;
+	border-radius: 5px;
+}
+
+
+button.submit
+{
+	border: none;
+	background-color: blue;
+	padding: 15px;
+	border-radius: 12px;
+	color: white;
+}
+
+
+button.submit:hover
+{
+	cursor: pointer;
+	background-color: darkblue;
+	
+}

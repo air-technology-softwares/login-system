@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 height=device-height">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<title>Air Technology</title>
+	<link rel="icon" href="IMG/logo final.jpeg"/>
+	<link rel="stylesheet" href="css/passstyle.css"/>
+</head>
+
+<body>
+	<div class="tittle">
+	<h1>Password Reset</h1>
+	</div>
+	
+	<br>
+		<br>
+		<br>
+		
+	
+	<div class="pass">
+	
+		<center>
+	
+	<form class="pass" id="pass" action="done.html">
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		<label class="pass" id="pass">New Password:</label>
+		<input class="pass" id="nft" type="password" required/>
+		
+		<br>
+		<br>
+		
+		<label class="pass" id="pass">Confirm Password:</label>
+		<input class="pass" id="nrt" type="password" required/>
+			   
+		<br>
+		<br>
+		<br>
+		
+		
+		<input type="checkbox" onClick="show()">Show Password
+		
+			
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		
+		<button class="submit" id="submit" type="submit">Submit</button>
+		
+		</form>
+	
+	</center>
+	
+	</div>
+	
+	
+	<script>
+function show(){
+  var x = document.getElementById("nrt");
+	var z = document.getElementById("nft")
+  if (x.type === "password") {
+    x.type = "text";
+  } 
+	else 
+	{
+    x.type = "password";
+  }
+	
+	if(z.type === "password"){
+		z.type = "text";
+	}
+	else{
+		z.type = "password";
+	}
+	
+}
+</script>
+	
+</body>
+</html>

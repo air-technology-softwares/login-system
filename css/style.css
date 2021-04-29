@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color: gray;
+}
+
+div.tittle
+{
+	font-size: 20pt;
+	text-align: center;
+}
+
+form.regForm
+{
+	background-color: white;
+	height: 350px;
+	width: 450px;
+	border-radius: 20px;
+}
+
+input.email
+{
+	width: 60%;
+	height: 30px;
+	border-radius: 5px;
+}
+
+
+button.next
+{
+	padding: 15px;
+	border: none;
+	background-color: blue;
+	color: white;
+	font-size: 15px;
+	width: 50%;
+	border-radius: 12px;
+}
+
+button.next:hover
+{
+	cursor: pointer;
+	background-color: darkblue;
+}
+
+
+form.pass
+{
+	background-color: white;
+	height: 350px;
+	width: 450px;
+	border-radius: 20px;
+}
+
+input.pass
+{
+	height: 25px;
+	border-radius: 5px;
+}
+
+
+
+
+div.ttle
+{
+	display: none;
+}
+
+
+div.tab
+{
+	display: none;
+}
+
+div.tab1
+{
+	display: none;
+	
+}
+
+button.submit
+{
+	border: none;
+	padding: 15px;
+	color: white;
+	background-color: blue;
+	border-radius: 15px;
+	width: 30%
+}
+
+button.submit:hover
+{
+	cursor: pointer;
+	background-color: darkblue;
+	
+}
